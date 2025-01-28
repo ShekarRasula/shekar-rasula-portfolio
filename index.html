@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shekar Rasula - CSV Engineer Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f7f9;
+            color: #333;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #343a40;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        section {
+            margin: 50px auto;
+            padding: 30px;
+            max-width: 1000px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s, transform 0.5s;
+        }
+
+        section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        h2 {
+            color: #007bff;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .skills-list li {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1.1rem;
+        }
+
+        .skills-list li:hover {
+            background-color: #0056b3;
+        }
+
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .profile-img {
+            border-radius: 50%;
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Shekar Rasula - CSV Engineer Portfolio</h1>
+        <p>Delivering Robust Solutions in Computer System Validation</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- About Me Section -->
+        <section id="about" class="fade-in">
+            <h2>About Me</h2>
+            <img src="your-profile-pic.jpg" alt="Shekar Rasula" class="profile-img">
+            <p>Hi, I'm Shekar Rasula, a passionate and dedicated CSV Engineer based in Hyderabad, India. With extensive experience in GxP computerized systems, I ensure systems are validated, compliant, and efficient. I specialize in creating solutions to support scientific research, regulatory requirements, and system reliability.</p>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="fade-in">
+            <h2>Experience</h2>
+            <h3>Mylan Laboratories Ltd, Clinical Research Center (Sept 2020 – Present)</h3>
+            <ul>
+                <li>End-to-End Validation of GxP Computerized Systems</li>
+                <li>Periodic Reviews, User Access Checks, and System Updates</li>
+                <li>Data Integrity Audits and SOP Creation</li>
+                <li>Involvement in Software Upgrades, OS Migrations, and System Retirement Projects</li>
+            </ul>
+
+            <h3>SIMCO Calibration Laboratories (April 2017 – Aug 2020)</h3>
+            <ul>
+                <li>Calibration and Maintenance of Instruments</li>
+                <li>Customer Communication and Calibration Scheduling</li>
+            </ul>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="fade-in">
+            <h2>Education</h2>
+            <ul>
+                <li>B.Tech in Metallurgical & Materials Engineering (2011 – 2014) - RGUKT</li>
+                <li>Intermediate M.Bi.P.C (2008 – 2011) - RGUKT</li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="fade-in">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>GAMP5, 21 CFR Part 11 Compliance</li>
+                <li>Computer System Validation (CSV)</li>
+                <li>Document Control Management (vD2 20.2 build 163)</li>
+                <li>SAP for Purchasing</li>
+                <li>Project Management & Coordination</li>
+                <li>Data Integrity & Quality Assurance</li>
+            </ul>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="fade-in">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Led successful NABL audits at SIMCO Calibration Lab</li>
+                <li>Served as a live webcast engineer during the AP by-elections</li>
+                <li>Won 1st place in the Chekumuki Talent Test (CTT)</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="fade-in">
+            <h2>Contact</h2>
+            <p>I'm always open to new opportunities, collaborations, and discussions. Feel free to reach out!</p>
+            <p>Email: <a href="mailto:shekar.iiit7@gmail.com">shekar.iiit7@gmail.com</a></p>
+            <p>Phone: <a href="tel:+919676866367">+91 9676866367</a></p>
+        </section>
+
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 Shekar Rasula - Portfolio Website</p>
+    </footer>
+
+    <script>
+        // Fade-in effect for each section
+        const sections = document.querySelectorAll('section');
+        window.addEventListener('scroll', function() {
+            sections.forEach(section => {
+                const sectionTop = section.getBoundingClientRect().top;
+                if (sectionTop < window.innerHeight - 100) {
+                    section.classList.add('visible');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
